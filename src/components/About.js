@@ -52,7 +52,7 @@ import ToolkitIcon from './ToolkitIcon'
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                       <img src={portfoliophoto} className="card-img-top img-thumbnail"
-                           alt='Picture of the author' objectFit='cover' quality={75} loading='eager'/> 
+                           alt='author' objectFit='cover' quality={75} loading='eager'/> 
                       <hr></hr>
                         <h5 className="title-left main">About Me</h5>
                       </div>

@@ -31,7 +31,7 @@ const Navbar = ({ themeToggler }) => {
     //     <LightMode  className="text-warning"  onClick={() => setOpen(!open)}/>
     //   );
     
-     const state = { logo: logo };
+    const state = { logo: logo };
 
     const componentDidMount=()=> {
     const nav = $("nav");
@@ -103,7 +103,8 @@ const Navbar = ({ themeToggler }) => {
   
     return (
         <div>
-      <nav
+          {componentDidMount}
+        <nav
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top shadow-lg p-3 mb-5 bg-white rounded"
         style={{ backgroundImage: "url(" + sakuranav + ")" }} >
         <div className="container"> 
@@ -164,7 +165,6 @@ const Navbar = ({ themeToggler }) => {
       </nav>
       </div>
     );
-  
 }
 
 export default Navbar;
