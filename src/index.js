@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import 'normalize.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'lightbox2/dist/css/lightbox.min.css'
 import './Style/style.css';
