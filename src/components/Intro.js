@@ -48,7 +48,6 @@ const Intro = () => {
               <p className="pt-3">
                 <a
                   className="btn btn-dark js-scroll px-4" style={{ 
-                    // backgroundColor: "rgb(166, 0, 130)",
                      textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" }}
                   href="#work"
                   role="button"
