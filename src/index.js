@@ -10,9 +10,7 @@ import './styles/style.css';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'lightbox2/dist/js/lightbox.min.js';
-// import 'jquery';
-// import 'typed';
-// import 'materialize-css/dist/js/materialize.js';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
