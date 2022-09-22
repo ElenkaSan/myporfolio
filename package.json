@@ -1,6 +1,10 @@
 {
   "name": "myporfolio",
-  "version": "0.1.0",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
