@@ -1,8 +1,5 @@
 import React from "react";
 import $ from "jquery";
-import Switch from '@mui/joy/Switch';
-import DarkMode from '@mui/icons-material/DarkMode';
-// import LightMode from '@mui/icons-material/LightMode';
 import logo from "../img/logo.png";
 import sakuranav from "../img/sakuranav.png";
 import { useState } from 'react';
@@ -10,7 +7,8 @@ import { FiMenu } from 'react-icons/fi';
 import { RiCloseFill } from 'react-icons/ri';
 import Sidebar from './Sidebar';
 import styles from '../styles/NavBar.module.css';
-// import '../styles/style.css';
+import {FaMoon} from "react-icons/fa";
+import {ImSun} from "react-icons/im";
 
 const Navbar = ({ themeToggler }) => {
     const [open, setOpen] = useState(false);
@@ -18,19 +16,20 @@ const Navbar = ({ themeToggler }) => {
     const menuIcon = (
         <FiMenu className={styles.menuBtn} color='#121212' onClick={() => setOpen(!open)} />
       );
-
-      const menuSwitch = (
-        <DarkMode className="text-dark" onClick={() => setOpen(!open)} />
-      );
     
       const closeIcon = (
         <RiCloseFill className={styles.menuBtn} color='#121212' onClick={() => setOpen(!open)} />
       );
 
-    //   const closeSwitch = (
-    //     <LightMode  className="text-warning"  onClick={() => setOpen(!open)}/>
-    //   );
-    
+      const menuSwitch = (
+        <FaMoon className="text-dark display-6" onClick={() => setOpen(!open)} />
+      );
+
+      const lightSwitch = (
+        <ImSun className="text-warning display-6" onClick={() => setOpen(!open)} />
+      );
+
+
     const state = { logo: logo };
 
     const componentDidMount=()=> {
@@ -112,7 +111,7 @@ const Navbar = ({ themeToggler }) => {
             <img
               src={state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
+              style={{ maxWidth: "80px" }}
             />
           </a>
           <Sidebar open={open} setOpen={setOpen} themeToggler={themeToggler} />
@@ -143,28 +142,23 @@ const Navbar = ({ themeToggler }) => {
                 </a>
               </li>
             </ul>
-            <ul className="" htmlFor="theme-switcher">
-      <Switch onClick={() => themeToggler()} open={open} setOpen={setOpen}
-    //   type="checkbox"
-    //   id="theme-switcher"
-    //   name="theme-switcher"
-    //   className="btn"
-      componentsProps={{
-        // input: { 'aria-label': 'Dark mode' },
-        thumb: {
-          children: menuSwitch
-        //    open ? closeSwitch : menuSwitch,
-        },
-      }}
-      sx={{
-        '--Switch-thumb-size': '28px',
-      }}
-      /> </ul>
+            <ul className="display-6" htmlFor="theme-switcher">
+              <button className="btn" onClick={() => themeToggler()}
+                      type="checkbox"
+                      id="theme-switcher"
+                      name="theme-switcher"> {open ? lightSwitch : menuSwitch}
+              </button>
+            </ul>
       </div>
       </div>
       </nav>
       </div>
     );
 }
+
+// Navbar.propTypes = {
+//   theme: string.isRequired,
+//   themeToggler: func.isRequired,
+// }
 
 export default Navbar;
