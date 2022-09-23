@@ -58,7 +58,7 @@ const Intro = () => {
                 <a
                   className="btn btn-dark js-scroll px-4" style={{
                      textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" }}
-                  href="https://drive.google.com/file/d/1OhdSq7l7rFY8tfwTboP-hj1T4Lzp9ARM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1azcUq9JuoEH5n1Ss3xz_7cNfHiB7iOX3/view?usp=sharing"
                   role="button"
                 > My Resume </a>
               </p>
