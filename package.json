@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "'elenanurullina'",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "dependencies": {
     "@fontsource/roboto": "^4.5.8",
