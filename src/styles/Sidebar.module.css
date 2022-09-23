@@ -130,11 +130,12 @@
     .sidebar {
       position: absolute;
       color: rgb(21, 19, 54);
-      top: 141px;
+      top: 122px;
       right: -250px;
-      min-height: 100vh;
+      min-height: 10vh;
       transition: right 0.3s ease-in-out;
       z-index: 999;
+      border-radius: 5px;
     }
   
     .sidebarOpen {
