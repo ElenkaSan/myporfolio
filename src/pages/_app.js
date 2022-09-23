@@ -6,7 +6,7 @@ import About from '../components/About.js';
 import Portfolio from '../components/Portfolio.js';
 import Contact from '../components/Contact.js';
 // import BackToTop from '../components/BackToTop.js';
-import Preloader from '../components/Preloader';
+// import Preloader from '../components/Preloader';
 export const ThemeContext = createContext(null)
 
 
@@ -30,7 +30,7 @@ function App() {
         <Portfolio />
         <Contact />
         {/* <BackToTop /> */}
-        <Preloader />
+        {/* <Preloader /> */}
     </div>
     </ThemeContext.Provider>
   );
