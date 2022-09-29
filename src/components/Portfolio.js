@@ -98,7 +98,7 @@ class Portfolio extends React.Component {
                       <div className="col-m-9">
                         <h2 className="main">Vacation Time</h2>
                         <div className="">
-                        <a href="https://github.com/ElenkaSan/Capstone_Project_2_Frontend" role="button">
+                        <a href="https://wiry-ground.surge.sh" role="button">
                         <div className="w-like">
                         <span className="main"><BsPatchPlus/></span>
                         </div>
