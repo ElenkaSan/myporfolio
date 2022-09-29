@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-sm-6">
               <div className="work-box card">
-                <a className="btn" href="https://github.com/ElenkaSan/Capstone_Project_1">
+                <a className="btn" href="https://recipe-tips.herokuapp.com/">
                   <div className="work-img card">
                     <img src={recipetips} alt="" className="img-fluid" />
                   </div>
@@ -33,7 +33,7 @@ class Portfolio extends React.Component {
                       <div className="col-m-9">
                         <h2 className="main">Recipe Tips</h2>
                         <div className="">
-                        <a href="https://recipe-tips.herokuapp.com/" role="button">
+                        <a href="https://github.com/ElenkaSan/Capstone_Project_1" role="button">
                         <div className="w-like">
                           <span className="main"><BsPatchPlus/></span>
                         </div>
@@ -55,7 +55,7 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-sm-6">
               <div className="work-box card">
-                <a className="btn" href="https://github.com/ElenkaSan/React-Jobly">
+                <a className="btn" href="https://tearful-cactus.surge.sh">
                   <div className="work-img card">
                     <img src={jobly} alt="" className="img-fluid" />
                   </div>
@@ -64,7 +64,7 @@ class Portfolio extends React.Component {
                       <div className="col-m-9">
                         <h2 className="main">Jobly (job board site)</h2>
                         <div className="">
-                        <a href="https://tearful-cactus.surge.sh" role="button">
+                        <a href="https://github.com/ElenkaSan/React-Jobly" role="button">
                         <div className="w-like">
                         <span className="main"><BsPatchPlus/></span>
                         </div>
@@ -89,7 +89,7 @@ class Portfolio extends React.Component {
             </div>
              <div className="col-sm-6">
               <div className="work-box card">
-                <a className="btn" href="https://github.com/ElenkaSan/Capstone_Project_2_Backend">
+                <a className="btn" href="https://wiry-ground.surge.sh">
                   <div className="work-img card">
                     <img src={vaca} alt="" className="img-fluid" />
                   </div>
@@ -98,7 +98,7 @@ class Portfolio extends React.Component {
                       <div className="col-m-9">
                         <h2 className="main">Vacation Time</h2>
                         <div className="">
-                        <a href="https://wiry-ground.surge.sh" role="button">
+                        <a href="https://github.com/ElenkaSan/Capstone_Project_2_Backend" role="button">
                         <div className="w-like">
                         <span className="main"><BsPatchPlus/></span>
                         </div>
@@ -125,7 +125,7 @@ class Portfolio extends React.Component {
             </div>
              <div className="col-sm-6">
               <div className="work-box card">
-                <a className="btn" href="https://myporfolio.elenkasan.repl.co">
+                <a className="btn" href="https://elenanurullina.vercel.app/">
                   <div className="work-img card">
                     <img src={myport} alt="" className="img-fluid" />
                   </div>
