@@ -29,7 +29,7 @@ import ToolkitIcon from './ToolkitIcon'
                         <ToolkitIcon icon={<FaPython color='#4b8bbe' />} name='Python' />
                         <ToolkitIcon icon={<SiFlask color='fccb2b' />} name='Flask' />
                         <ToolkitIcon icon={<FaDatabase color='#f29111' />} name='SQL' />
-                        <ToolkitIcon icon={<SiPostgresql color='#0064a5' />} name='PostgrSQL' />
+                        <ToolkitIcon icon={<SiPostgresql color='#0064a5' />} name='PostgreSQL' />
                         <ToolkitIcon icon={<FaBootstrap color='#563d7c' />} name='Bootstrap' />
                         <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
                         <ToolkitIcon icon={<SiJest color='#e34c26' />} name='Jest' />
