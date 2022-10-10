@@ -12,12 +12,14 @@ class Contact extends React.Component {
         className="paralax-mf footer-paralax bg-image sect-mt4 route" 
         style={{ backgroundImage: "url(" + sakura + ")" }}
       >
-        <div className="overlay-mf"></div>
+        {/* <div className="overlay-mf"></div> */}
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
               <div className="contact-mf">
-                <div id="contact" className="box-shadow-full card">
+                <div id="contact" className="box-shadow-full card"
+                 style={{ background: "linear-gradient(160deg, #084e63  10%, #34174c 70%)" }} 
+                >
                   <div className="row">
                     <div className="col-md-6">
                       <div className="title-box-2">
@@ -101,7 +103,7 @@ class Contact extends React.Component {
                     </div>
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Get in Touch</h5>
+                        <h2 className="">Get in Touch</h2>
                       </div>
                       <div className="more-info">
                         <p className="lead">
@@ -112,16 +114,18 @@ class Contact extends React.Component {
                       </div>
                       <div className="socials">
                       <div className={styles.socialLinks}>
-			             		  <SocialLink
+		       <h1> 
+			 <SocialLink
                          url="https://twitter.com/Elenka_San"
-                         icon={<FaTwitter color="#0999" />}
-                        />
-					            	<SocialLink
+                         icon={<FaTwitter color="#00fcda" />}
+                         /> 
+                        <SocialLink
                          url="https://www.linkedin.com/in/elena-nurullina"
-                         icon={<AiFillLinkedin color="#55ACEE" />}
-                        />
-			         	     	</div>
-			              	</div>
+                         icon={<AiFillLinkedin color="#39ACEE" />}
+                         />
+	                </h1>
+                       </div>
+		      </div>
                     </div>
                   </div>
                 </div>
@@ -140,8 +144,8 @@ class Contact extends React.Component {
           </div>
         </footer>
         <footer>
-				<span>&copy;</span> 2022 Elena Nurullina
-			</footer>
+	  <span>&copy;</span> 2022 Elena Nurullina
+       </footer>
       </section>
     );
   }
