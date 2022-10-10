@@ -1,7 +1,7 @@
 import React from "react";
 import $ from "jquery";
 import logo from "../img/logo.png";
-import sakuranav from "../img/sakuranav.png";
+// import sakuranav from "../img/sakuranav.png";
 import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { RiCloseFill } from 'react-icons/ri';
@@ -12,6 +12,7 @@ import {ImSun} from "react-icons/im";
 
 const Navbar = ({ themeToggler }) => {
     const [open, setOpen] = useState(false);
+    const [touch, setTouch] = useState(false);
   
     const menuIcon = (
         <FiMenu className={styles.menuBtn} color='#121212' onClick={() => setOpen(!open)} />
@@ -22,11 +23,11 @@ const Navbar = ({ themeToggler }) => {
       );
 
       const menuSwitch = (
-        <FaMoon className="text-dark display-6" onClick={() => setOpen(!open)} />
+        <FaMoon className="text-dark display-6" onClick={() => setTouch(!touch)} />
       );
 
       const lightSwitch = (
-        <ImSun className="text-warning display-6" onClick={() => setOpen(!open)} />
+        <ImSun className="text-warning display-6" onClick={() => setTouch(!touch)} />
       );
 
 
@@ -105,7 +106,11 @@ const Navbar = ({ themeToggler }) => {
           {componentDidMount}
         <nav
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top shadow-lg p-3 mb-5 bg-white rounded"
-        style={{ backgroundImage: "url(" + sakuranav + ")" }} >
+        style={{ background: "linear-gradient(160deg,  #34174c 10%, #084e63 70%)" }} 
+        // style={{ background: "linear-gradient(160deg,  #08a993 10%, #94734e 50%)" }} 
+        // style={{ background: "linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%)" }} 
+        // style={{ backgroundImage: "url(" + sakuranav + ")" }} 
+        >
         <div className="container"> 
           <a className="navbar-brand js-scroll" href="#home">
             <img
@@ -114,8 +119,8 @@ const Navbar = ({ themeToggler }) => {
               style={{ maxWidth: "80px" }}
             />
           </a>
-          <Sidebar open={open} setOpen={setOpen} themeToggler={themeToggler} />
-         <div className="card bg-info">{open ? closeIcon : menuIcon}</div>
+          <Sidebar open={open} setOpen={setOpen} touch={touch} setTouch={setTouch} themeToggler={themeToggler} />
+         <div className="card bg-info">{open ? closeIcon : menuIcon} </div>
           <div
             className="navbar-collapse collapse justify-content-end"
             id="navbarDefault"
@@ -146,7 +151,7 @@ const Navbar = ({ themeToggler }) => {
               <button className="btn" onClick={() => themeToggler()}
                       type="checkbox"
                       id="theme-switcher"
-                      name="theme-switcher"> {open ? lightSwitch : menuSwitch}
+                      name="theme-switcher"> {touch ? lightSwitch : menuSwitch}
               </button>
             </ul>
       </div>
@@ -155,10 +160,5 @@ const Navbar = ({ themeToggler }) => {
       </div>
     );
 }
-
-// Navbar.propTypes = {
-//   theme: string.isRequired,
-//   themeToggler: func.isRequired,
-// }
 
 export default Navbar;
