@@ -130,7 +130,7 @@
     .sidebar {
       position: absolute;
       color: rgb(21, 19, 54);
-      top: 122px;
+      top: 121px;
       right: -250px;
       min-height: 10vh;
       transition: right 0.3s ease-in-out;
