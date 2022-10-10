@@ -22,9 +22,7 @@
     width: 100%;
     font-size: 14px;
     padding: 40px 40px;
-    /* font-family: 'Space Mono', monospace; */
-    z-index: 999;
-    
+    z-index: 999; 
   }
   
   .navbar ul {
