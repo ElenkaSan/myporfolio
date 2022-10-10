@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 import ToolkitIcon from './ToolkitIcon'
 
 // class About extends React.Component {
-    const About = () => {
+const About = () => {
 
     return (
       <section id="about" className="about-mf sect-pt4 route">
@@ -54,14 +54,14 @@ import ToolkitIcon from './ToolkitIcon'
                       <img src={portfoliophoto} className="card-img-top img-thumbnail"
                            alt='author' objectFit='cover' quality={75} loading='eager'/> 
                       <hr></hr>
-                        <h5 className="title-left main">About Me</h5>
-                      </div>
+                        <h2 className="main">About Me</h2>
                       <div className={`${styles.contentT} para-animate`}>
                         <p className="texts lead">I am a Full-Stack Software Engineer with a passion for working achieve personal and team goals.
                           I also recently completed the Software Engineering Career Track where I learned the latest Web Development skills
                           from top industry professionals to stay modernized in the ever-changing tech landscape. 
                           I am most passionate about Front-End development since it incorporates both creativity and logical design. 
                           I continue to learn more and develop in this direction and improve my skills. Open to employment 100% remote work.</p>
+                      </div>
                       </div>
                     </div>
                   </div>
