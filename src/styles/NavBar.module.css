@@ -126,7 +126,7 @@
     border-color: #dcb434;
   }
   
-  @media only screen and (max-width: 865px) {
+  @media only screen and (max-width: 740px) {
     .navbar {
       height: 80px;
       background-color: #fff;
@@ -165,7 +165,7 @@
     }
   }
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 740px) {
     .homeLink a {
       font-size: 1.1rem;
     }
