@@ -1,7 +1,7 @@
 import React from "react";
 import recipetips from "../img/recipetips.png";
 import jobly from "../img/jobly.png";
-import myport from "../img/myport.png"
+import myport1 from "../img/myport1.png"
 import vaca from "../img/vaca.png"
 import {BsPatchPlus} from 'react-icons/bs';
 // import '../styles/style.css';
@@ -127,7 +127,7 @@ class Portfolio extends React.Component {
               <div className="work-box card">
                 <a className="btn" href="https://elenanurullina.vercel.app/">
                   <div className="work-img card">
-                    <img src={myport} alt="" className="img-fluid" />
+                    <img src={myport1} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
