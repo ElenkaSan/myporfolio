@@ -1,32 +1,34 @@
-import sakura from "../img/sakura.jpeg";
+// import sakura from "../img/sakura.jpeg";
 // import Switch from "react-switch";
 // import Switch from '@mui/joy/Switch';
 // import LightMode from '@mui/icons-material/LightMode';
 import styles from '../styles/Sidebar.module.css';
-
 import {FaMoon} from "react-icons/fa";
 import {ImSun} from "react-icons/im";
 
-const Sidebar = ({ open, setOpen, themeToggler }) => {
+const Sidebar = ({ open, setOpen, touch, setTouch, themeToggler }) => {
   const menuSwitch = (
-    <FaMoon className="text-dark display-6" onClick={() => setOpen(!open)} />
+    <FaMoon className="text-info display-6" onClick={() => setTouch(!touch)} />
   );
 
   const lightSwitch = (
-    <ImSun className="text-warning display-6" onClick={() => setOpen(!open)} />
+    <ImSun className="text-warning display-6" onClick={() => setTouch(!touch)} />
   );
 
 
     return (
-    <div className={`${styles.sidebar} ${open && styles.sidebarOpen}`} style={{ backgroundImage: "url(" + sakura + ")" }} >
+    <div className={`${styles.sidebar} ${open && styles.sidebarOpen}`} 
+    style={{ background: "linear-gradient(160deg,  #34174c 10%, #084e63 50%)" }}
+    // style={{ backgroundImage: "url(" + sakura + ")" }} 
+    >
       <ul className="navbar-nav">
-           <li htmlFor="theme-switcher">
-              <button className="btn" onClick={() => themeToggler()}
+        <li htmlFor="theme-switcher">
+          <button className="btn" onClick={() => themeToggler()}
                       type="checkbox"
                       id="theme-switcher"
-                      name="theme-switcher"> {open ? lightSwitch : menuSwitch}
-              </button>
-            </li>
+                      name="theme-switcher"> {touch ? lightSwitch : menuSwitch}
+          </button>
+        </li>
         <li className="navbar-nav">
           <a className="nav-link js-scroll" href="#about" onClick={() => setOpen(!open)}> About
           </a>
