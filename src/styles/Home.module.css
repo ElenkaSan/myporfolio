@@ -41,17 +41,17 @@
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: justify;
   }
 
   .contentS {
     display: flex;
-    text-align: left;
+    /* text-align: left; */
   }
 
   .contentT {
     display: flex;
-    text-align: right;
+    text-align: justify;
   }
   
   .summary h2 {
