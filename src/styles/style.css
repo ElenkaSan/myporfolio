@@ -22,6 +22,8 @@ p {
   background: linear-gradient(160deg, #e1bdff 1%, #63d3ff 100%);
 }
 /* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%); */
+/* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%); */
+/* background: linear-gradient(160deg,  #34174c 1%, #084e63 50%); */
 #dark {
   background: linear-gradient(160deg, #5b327c 1%, #057fa4 100%);
 }
@@ -84,7 +86,7 @@ p {
 }
 
 body {
-    background: #0078ff !important;
+    background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%); 
     color: #046be0 !important;
   }
   
