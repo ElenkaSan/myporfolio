@@ -255,10 +255,10 @@
     }
   
     .socials {
-      display: flex;
+      /* display:; */
       flex-direction: column;
       font-size: 2.2rem;
-      margin-top: 1.2rem;
+      margin-top: 7.2rem;
       margin-bottom: 0.4rem;
       justify-content: space-between;
     }
