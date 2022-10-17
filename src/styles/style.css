@@ -1,6 +1,4 @@
-/*
-GENERAL STYLING
-*/
+/*GENERAL STYLING */
 
 .App {
   font-family: "Ubuntu", sans-serif;
@@ -19,13 +17,31 @@ p {
 }
 
 #light {
-  background: linear-gradient(160deg, #e1bdff 1%, #63d3ff 100%);
+  /* background: linear-gradient(160deg, #e1bdff 1%, #63d3ff 100%); */
+  background: linear-gradient(160deg, #d090a4d5 20%,  #885f7fe7 100%);
+  /* background: linear-gradient(160deg, #57a39a 20%,  #C38D9E 100%); */
+  /* background: #c38d9edf; */
 }
-/* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%); */
-/* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%); */
-/* background: linear-gradient(160deg,  #34174c 1%, #084e63 50%); */
+/* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50); #E8A87C */ 
+/* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50% #85dcba ); */
+/* background: linear-gradient(160deg,  #34174c 1%, #084e63 50% 
+#EDC7B7 #AFD275 #FF9398 #057fa4 #41B3A3 #2779a7 #49c5b6 #FFB48F); */
 #dark {
-  background: linear-gradient(160deg, #5b327c 1%, #057fa4 100%);
+  background: linear-gradient(160deg, #422d3cd8 20%,  #885f7fe7 100%);
+  /* background: linear-gradient(160deg, ##49c5b6 20%,  #C38D9E 100%); */
+}
+
+#light .change {
+  /* background: linear-gradient(160deg, #e1bdff 1%, #63d3ff 100%); */
+  /* background: linear-gradient(160deg, #c38d9ed5 20%,  #885f7fe7 100%); */
+  background: linear-gradient(160deg, #62aba3eb 20%,  #C38D9E 100%);
+  /* background: #c38d9edf; */
+}
+
+#dark .change {
+  /* background: linear-gradient(160deg, #64485cd8 20%,  #885f7fe7 100%); */
+  /* background: linear-gradient(160deg, #a47987 20%, #509c93 100%); */
+  background: linear-gradient(160deg, #a1808ce3 20%, #40605d 100%);
 }
 
 .App-logo {
@@ -70,15 +86,16 @@ p {
 }
 
 #light .main {
-  color: rgb(166, 0, 130);
+  color: #084e63;
 }
 
 #dark .main {
-  color:  rgb(253, 130, 227);
+  /* color:  #0a018be7; */
+  color: rgb(253, 130, 227);
 }
 
 #dark .texts {
-  color:  rgb(219, 175, 209);
+  color:  rgb(232, 194, 222);
 }
 
 #light .texts {
@@ -86,19 +103,23 @@ p {
 }
 
 body {
-    background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%); 
-    color: #046be0 !important;
+  background-image: url("../img/sakura.jpeg");
+    /* background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%);  */
+    /* color: #046be0 !important; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-clip: border-box;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
-  
-  /* h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    font-family: 'Space Mono', monospace;
-  } */
   
   a {
     color: #1e1e1e;
