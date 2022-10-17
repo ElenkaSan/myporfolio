@@ -22,17 +22,17 @@ const About = () => {
                         <ToolkitIcon icon={<FaCss3Alt color='#264de4' />} name='CSS' />
                         <ToolkitIcon icon={<SiJavascript color='#F0DB4F' />} name='JavaScript' />
                         <ToolkitIcon icon={<FaReact color='#61DBFB' />} name='React' />
-                        <ToolkitIcon icon={<SiRedux color='#4dc0b5' />} name='Redux' />
-                        <ToolkitIcon icon={<FaNodeJs color='#68A063' />} name='Node/Express' />
+                        <ToolkitIcon icon={<SiRedux color='#4dc0b5' className="bg-success card" />} name='Redux' />
+                        <ToolkitIcon icon={<FaNodeJs color='#85dcba' className="bg-primary card"/>} name='Node/Express' />
                         <ToolkitIcon icon={<SiNextdotjs color='#000' />} name='Next' />
                         <ToolkitIcon icon={<SiTypescript color='#007acc' />} name='Typescript' />
                         <ToolkitIcon icon={<FaPython color='#4b8bbe' />} name='Python' />
-                        <ToolkitIcon icon={<SiFlask color='fccb2b' />} name='Flask' />
+                        <ToolkitIcon icon={<SiFlask color='fccb2b' className="bg-dark card"/>} name='Flask' />
                         <ToolkitIcon icon={<FaDatabase color='#f29111' />} name='SQL' />
-                        <ToolkitIcon icon={<SiPostgresql color='#0064a5' />} name='PostgreSQL' />
-                        <ToolkitIcon icon={<FaBootstrap color='#563d7c' />} name='Bootstrap' />
+                        <ToolkitIcon icon={<SiPostgresql color='#AFD275' className="bg-secondary card"/>} name='PostgreSQL' />
+                        <ToolkitIcon icon={<FaBootstrap color='#563d7c' className="bg-light card"/>} name='Bootstrap' />
                         <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
-                        <ToolkitIcon icon={<SiJest color='#e34c26' />} name='Jest' />
+                        <ToolkitIcon icon={<SiJest color='#e34c26' className="bg-warning card" />} name='Jest' />
                         <ToolkitIcon icon={<SiJquery color='#78cff5' />} name='JQuery' />
                         <ToolkitIcon icon={<SiVisualstudiocode color='#0078d7' />} name='VS Code' />
                         <ToolkitIcon icon={<SiMongodb color='rgb(54, 213, 62)' />} name='MongoDB' />
