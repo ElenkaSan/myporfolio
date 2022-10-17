@@ -22,12 +22,10 @@ p {
   /* background: linear-gradient(160deg, #57a39a 20%,  #C38D9E 100%); */
   /* background: #c38d9edf; */
 }
-
 /* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50); #E8A87C */ 
 /* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50% #85dcba ); */
 /* background: linear-gradient(160deg,  #34174c 1%, #084e63 50% 
 #EDC7B7 #AFD275 #FF9398 #057fa4 #41B3A3 #2779a7 #49c5b6 #FFB48F); */
-
 #dark {
   background: linear-gradient(160deg, #422d3cd8 20%,  #885f7fe7 100%);
   /* background: linear-gradient(160deg, ##49c5b6 20%,  #C38D9E 100%); */
@@ -104,10 +102,10 @@ p {
   color: rgb(50, 5, 40);
 }
 
-body {
-    background-image: url("../img/sakura.jpeg");
-/*     background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%); 
-    color: #046be0 !important; */
+/* body {
+  background-image: url("../img/sakura.jpeg");
+    background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%); 
+    color: #046be0 !important;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -121,7 +119,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-  }
+  } */
   
   a {
     color: #1e1e1e;
@@ -1108,6 +1106,24 @@ body {
     .back-to-top {
       bottom: 15px;
     }
+    .body {
+      background-image: url("../img/sakura.jpeg");
+        background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%); 
+        color: #046be0 !important;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-clip: border-box;
+        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: scroll;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+      }
   }
 
   @-webkit-keyframes swing {
