@@ -23,9 +23,9 @@ const Intro = () => {
             but especially in Front-End Development. <br/> I am passionate about combining creative design with code.</h4>
             </div>
           <div className={styles.socials}>
-            <SocialLink url='https://www.linkedin.com/in/elena-nurullina/' icon={<FaLinkedin color='#0077B5' />} />
-            <SocialLink url='https://github.com/ElenkaSan' icon={<FaGithub color='rgb(218, 78, 18)' />} />
-            <SocialLink url='mailto:elenka_san@yahoo.com?subject=Website Inquiry' icon={<FiMail color='#4d0489' />} />
+            <SocialLink url='https://www.linkedin.com/in/elena-nurullina/' icon={<FaLinkedin color='#0a018be7' />} />
+            <SocialLink url='https://github.com/ElenkaSan' icon={<FaGithub color='#AFD275' />} />
+            <SocialLink url='mailto:elenka_san@yahoo.com?subject=Website Inquiry' icon={<FiMail color='#290859e7' />} />
           </div>
           </div>
           </div>
