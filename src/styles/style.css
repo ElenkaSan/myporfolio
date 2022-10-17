@@ -18,14 +18,16 @@ p {
 
 #light {
   /* background: linear-gradient(160deg, #e1bdff 1%, #63d3ff 100%); */
-  background: linear-gradient(160deg, #d090a4d5 20%,  #885f7fe7 100%);
+  background: linear-gradient(160deg, #a46a7bcf 20%,  #885f7fe7 100%);
   /* background: linear-gradient(160deg, #57a39a 20%,  #C38D9E 100%); */
   /* background: #c38d9edf; */
 }
+
 /* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50); #E8A87C */ 
 /* linear-gradient(160deg,  #00fcda 1%, #e0b27e 50% #85dcba ); */
 /* background: linear-gradient(160deg,  #34174c 1%, #084e63 50% 
 #EDC7B7 #AFD275 #FF9398 #057fa4 #41B3A3 #2779a7 #49c5b6 #FFB48F); */
+
 #dark {
   background: linear-gradient(160deg, #422d3cd8 20%,  #885f7fe7 100%);
   /* background: linear-gradient(160deg, ##49c5b6 20%,  #C38D9E 100%); */
