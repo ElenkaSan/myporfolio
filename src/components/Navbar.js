@@ -106,10 +106,11 @@ const Navbar = ({ themeToggler }) => {
           {componentDidMount}
         <nav
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top shadow-lg p-3 mb-5 bg-white rounded"
-        style={{ background: "linear-gradient(160deg,  #34174c 10%, #084e63 70%)" }} 
+        // style={{ background: "linear-gradient(160deg,  #34174c 10%, #084e63 70%)" }} 
         // style={{ background: "linear-gradient(160deg,  #08a993 10%, #94734e 50%)" }} 
         // style={{ background: "linear-gradient(160deg,  #00fcda 1%, #e0b27e 50%)" }} 
         // style={{ backgroundImage: "url(" + sakuranav + ")" }} 
+        style={{ background: "linear-gradient(160deg, #084e63 10%, #885f7fe7 70%)" }} 
         >
         <div className="container"> 
           <a className="navbar-brand js-scroll" href="#home">
@@ -151,7 +152,7 @@ const Navbar = ({ themeToggler }) => {
               <button className="btn" onClick={() => themeToggler()}
                       type="checkbox"
                       id="theme-switcher"
-                      name="theme-switcher"> {touch ? lightSwitch : menuSwitch}
+                      name="theme-switcher"> {touch ? menuSwitch: lightSwitch}
               </button>
             </ul>
       </div>
