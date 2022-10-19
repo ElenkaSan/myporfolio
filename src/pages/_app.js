@@ -24,6 +24,17 @@ function App() {
     // theme={theme === "light" ? "dark" : "light"}
     >
     <div className="App" id={theme}>
+        <ul class="sakura">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>
         <Navbar themeToggler={themeToggler} checked={ theme === "dark"}/>
         <Intro />
         <About />
