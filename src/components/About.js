@@ -37,14 +37,28 @@ const About = () => {
                         <ToolkitIcon icon={<SiVisualstudiocode color='#0078d7' />} name='VS Code' />
                         <ToolkitIcon icon={<SiMongodb color='rgb(54, 213, 62)' />} name='MongoDB' />
                       </div>
-                      <div className={styles.toolkitTitle} >
-                        <h2 className='stagger-in4'>T</h2>
-                        <h2 className='stagger-in4'>O</h2>
-                        <h2 className='stagger-in4'>O</h2>
-                        <h2 className='stagger-in4'>L</h2>
-                        <h2 className='stagger-in4'>K</h2>
-                        <h2 className='stagger-in4'>I</h2>
-                        <h2 className='stagger-in4'>T</h2>
+                      <div className={styles.toolkitTitle}>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>T</span>
+                      </h1>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>O</span>
+                      </h1>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>O</span>
+                      </h1>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>L</span>
+                      </h1>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>K</span>
+                      </h1>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>I</span>
+                      </h1>
+                      <h1 className="span loader fw-bold" id="loader">
+                        <span className='stagger-in4'>T</span>
+                      </h1>
                       </div>
                     </div>
                   </div>
