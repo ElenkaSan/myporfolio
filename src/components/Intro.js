@@ -9,27 +9,49 @@ const Intro = () => {
 
     return (
       <div className='jumbotron p-4'>
-      <div id="home" className="intro route bg-image" >
+       <div id="home" className="intro route bg-image" >
         <div className="intro-content display-table">
           <div className="table-cell">
-            <div className="container">
-        <div className={`${styles.content} para-animate`}>
-          <div className="text-dark"> 
+           <div className="container"> 
+            <div className={`${styles.content} para-animate`}>
+             <div className="text-dark banner"> 
+              <sectio className="nav">
+               <h1>Elena Nurullina</h1>
+                <h3 className="span loader" id="loader">
+                 <span className="m">S</span>
+                 <span className="m">O</span>
+                 <span className="m">F</span>
+                 <span className="m">T</span>
+                 <span className="m">W</span>
+                 <span className="m">A</span>
+                 <span className="m">R</span>
+                 <span className="m">E</span>
+                 <span className="m">&nbsp;</span>
+                 <span className="m">E</span>
+                 <span className="m">N</span>
+                 <span className="m">G</span>
+                 <span className="m">I</span>
+                 <span className="m">N</span>
+                 <span className="m">E</span>
+                 <span className="m">E</span>
+                 <span className="m">R</span>
+                </h3>        
+              </sectio>
           {/* <div className="text-dark float-right ">  */}
-            <h1 className="main">Elena Nurullina</h1>  
+            {/* <h1 className="main">Elena Nurullina</h1>   */}
             <hr class="my-2"></hr>
             <h4 className="texts">Full-Stack Software Engineer with 10+ years of experience in a bank and travel agency (5 years). 
             Having an Economics degree, it helps me to take any challenges. I like to specialize in Full-Stack, 
             but especially in Front-End Development. <br/> I am passionate about combining creative design with code.</h4>
-            </div>
-          <div className={styles.socials}>
+           </div>
+           <div className={styles.socials}>
             <SocialLink url='https://www.linkedin.com/in/elena-nurullina/' icon={<FaLinkedin color='#0a018be7' />} />
             <SocialLink url='https://github.com/ElenkaSan' icon={<FaGithub color='#AFD275' />} />
             <SocialLink url='mailto:elenka_san@yahoo.com?subject=Website Inquiry' icon={<FiMail color='#290859e7' />} />
+           </div>
           </div>
           </div>
-          </div>
-           <br></br>
+           {/* <br></br> */}
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider main">
@@ -63,6 +85,7 @@ const Intro = () => {
                   role="button"
                 > My Resume </a>
               </p>
+              
             </div>
           </div>
         </div>
