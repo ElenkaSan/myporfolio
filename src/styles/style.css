@@ -103,8 +103,8 @@ p {
   color: rgb(50, 5, 40);
 }
 
-body {
-  background-image: url("../img/sakura.jpeg");
+/* body {
+    background-image: url("../img/sakura.jpeg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -119,7 +119,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
   }
-  
+   */
   a {
     color: #1e1e1e;
     transition: all 0.5s ease-in-out;
