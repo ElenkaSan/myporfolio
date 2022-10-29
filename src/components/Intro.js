@@ -16,7 +16,7 @@ const Intro = () => {
             <div className={`${styles.content} para-animate`}>
              <div className="text-dark banner"> 
               <sectio className="nav">
-               <h1>Elena Nurullina</h1>
+               <h1 className="main">Elena Nurullina</h1>
                 <h3 className="span loader" id="loader">
                  <span className="m">S</span>
                  <span className="m">O</span>
