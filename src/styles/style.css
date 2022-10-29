@@ -343,7 +343,7 @@ body {
     margin: 0;
     padding-bottom: 0.5rem;
     letter-spacing: 0.5rem;
-    color: #03dac6;
+/*     color: #03dac6; */
     transition: all 0.3s ease;
     z-index: 3;
   }
