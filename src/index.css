@@ -7,15 +7,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-/*   margin: 0;
+  
   padding: 0;
   height: 100vh;
   overflow: scroll;
   background: url("./img/sakura.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-clip: border-box;
-  height: 100%; */
+  height: 100%;
 }
 
 code {
