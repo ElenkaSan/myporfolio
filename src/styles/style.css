@@ -105,21 +105,15 @@ p {
 
 body {
   background-image: url("../img/sakura.jpeg");
-    background-position: 'center';
-    background-size: 'cover';
-    background-repeat: 'no-repeat';
-    width: '100vw';
-    height: '100vh';
-/*     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-clip: border-box;
-    overflow: scroll;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow: scroll;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        display: fixed;
+        background-clip: border-box;
+  
+/*     overflow: scroll;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center; */
