@@ -1433,7 +1433,7 @@ p {
     .back-to-top {
       bottom: 15px;
     }
-    .body {
+/*     .body {
       background-image: url("../img/sakura.jpeg");
         background:  linear-gradient(160deg,  #34174c 10%, #084e63 70%); 
         color: #046be0 !important;
@@ -1450,7 +1450,7 @@ p {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
-      }
+      } */
   }
 
   @-webkit-keyframes swing {
