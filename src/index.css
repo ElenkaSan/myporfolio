@@ -8,12 +8,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  padding: 0;
+/*   padding: 0;
   height: 100vh;
   overflow: scroll;
   background: url("./img/sakura.jpeg") no-repeat center center fixed;
   background-size: cover;
-  background-clip: border-box;
+  background-clip: border-box; */
 }
 
 code {
