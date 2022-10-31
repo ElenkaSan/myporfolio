@@ -103,13 +103,13 @@ p {
   color: rgb(50, 5, 40);
 }
 
-body {
+/* body {
   background-image: url("../img/sakura.jpeg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-  }
+  } */
   
   a {
     color: #1e1e1e;
