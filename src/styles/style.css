@@ -392,7 +392,7 @@ p {
     }
   }
   
-  @media (max-width: 500px) {
+   @media (max-width: 500px) {
     .nav h1,
     .slider h1 {
       font-size: 8vw;
@@ -407,8 +407,7 @@ p {
     #loader span {
       font-size: 4vw;
     }
-    
-     
+  
     #light {
       background: linear-gradient(160deg, #49c5b772 20%,  #c38d9e96 100%);
       /* background: linear-gradient(160deg, #a46a7b93 20%,  #885f7fe7 100%); */
@@ -425,8 +424,15 @@ p {
     #dark .change {
       background: linear-gradient(160deg, #a1808ce3 20%, #40605d 100%);
     }
-  
-    
+
+    body {
+        background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+  }
+
   }
   
 /*   .background {
