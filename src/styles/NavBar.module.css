@@ -54,7 +54,6 @@
   .menuBtn {
     font-size: 2rem;
     display: none;
-    /* color: #121212; */
   }
   
   .themeToggler li {
@@ -126,7 +125,7 @@
     border-color: #dcb434;
   }
   
-  @media only screen and (max-width: 740px) {
+  @media only screen and (max-width: 767px) {
     .navbar {
       height: 80px;
       background-color: #fff;
@@ -165,7 +164,7 @@
     }
   }
   
-  @media only screen and (max-width: 740px) {
+  @media only screen and (max-width: 767px) {
     .homeLink a {
       font-size: 1.1rem;
     }
