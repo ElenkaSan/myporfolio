@@ -14,7 +14,6 @@ body {
   background: url("./img/sakura.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-clip: border-box;
-  height: 100%;
 }
 
 code {
