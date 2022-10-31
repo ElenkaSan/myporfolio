@@ -72,6 +72,23 @@
     text-align: right;
   }
 
+  h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
   .socials {
     text-align: end;
     font-size: 2.6rem;
@@ -90,6 +107,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
   .toolKit h2 {
@@ -106,6 +124,7 @@
     row-gap: 0.5rem;
     margin-right: 20px;
     margin-top: 0.6rem;
+    font-family: "Ubuntu", sans-serif;
   }
   
   .projects {
@@ -194,6 +213,7 @@
   
     .tools {
       grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+      font-family: "Ubuntu", sans-serif;
     }
   
     .projects {
@@ -210,6 +230,12 @@
   }
   
   @media only screen and (max-width: 480px) {
+    h1 {
+      animation-duration: 3s;
+      animation-name:none;
+    }
+
+    
     .main {
       padding: 0 1.2rem;
     }
@@ -270,6 +296,7 @@
       justify-content: space-evenly;
       align-content: space-evenly;
       align-items: center;
+      font-family: "Ubuntu", sans-serif;
     }
   
     .projectsTitle {
