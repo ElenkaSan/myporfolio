@@ -368,9 +368,9 @@ p {
     text-decoration: none;
   }
   
-  /* #loader span:hover {
+  #loader span:hover {
     color: #ff0266;
-  } */
+  }
   
   @media screen and (min-width: 800px) {
     .nav h1 {
