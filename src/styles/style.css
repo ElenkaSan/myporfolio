@@ -407,11 +407,29 @@ p {
     #loader span {
       font-size: 4vw;
     }
+    
+     
+    #light {
+      background: linear-gradient(160deg, #49c5b772 20%,  #c38d9e96 100%);
+      /* background: linear-gradient(160deg, #a46a7b93 20%,  #885f7fe7 100%); */
+    }
+    #dark {
+      background: linear-gradient(160deg, #422d3cd8 20%,  #885f7fe7 100%);
+      /* background: linear-gradient(160deg, #49c5b743 20%,  #c38d9e96 100%); */
+    }
+    
+    #light .change {
+      background: linear-gradient(160deg, #62aba3eb 20%,  #C38D9E 100%);
+    }
+    
+    #dark .change {
+      background: linear-gradient(160deg, #a1808ce3 20%, #40605d 100%);
+    }
   
     
   }
   
-  .background {
+/*   .background {
     position: absolute;
     height: 100vh;
     top: 0;
@@ -419,7 +437,7 @@ p {
     left: 0;
     right: 0;
     z-index: 0;
-  }
+  } */
   
   .loader span {
     color: #AFD275;
