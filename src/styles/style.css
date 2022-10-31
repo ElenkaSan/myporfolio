@@ -112,11 +112,8 @@ body {
         height: 100vh;
         display: fixed;
         background-clip: border-box;
-  
-/*     overflow: scroll;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center; */
+        background-attachment: fixed;
+        background-position: center center;
   }
   
   a {
