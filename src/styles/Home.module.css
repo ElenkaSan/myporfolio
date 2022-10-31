@@ -229,7 +229,7 @@
     }
   }
   
-  @media only screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     h1 {
       animation-duration: 3s;
       animation-name:none;
