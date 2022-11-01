@@ -71,11 +71,11 @@
     font-size: 1.6rem;
     text-align: right;
   }
-
+/* 
   h1 {
     animation-duration: 3s;
     animation-name: slidein;
-  }
+  } */
 
   @keyframes slidein {
     from {
