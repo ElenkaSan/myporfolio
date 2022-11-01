@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   padding: 0;
-  overflow: scroll;
+/*   overflow: scroll; */
   background: url("./img/sakura.jpeg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
