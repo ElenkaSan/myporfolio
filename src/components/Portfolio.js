@@ -125,7 +125,7 @@ class Portfolio extends React.Component {
             </div>
              <div className="col-sm-6">
               <div className="work-box card change">
-                <a className="btn" href="https://myporfolio.elenkasan.repl.co">
+                <a className="btn" href="https://elenanurullina.vercel.app/">
                   <div className="work-img card">
                     <img src={myportnight} alt="" className="img-fluid" />
                   </div>
