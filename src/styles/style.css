@@ -170,10 +170,6 @@ p {
     overflow: hidden;
   }
   
-  /* .overlay-mf {
-    background-color: #0078ff;
-  } */
-  
   .overlay-mf {
     position: absolute;
     top: 0;
@@ -219,100 +215,6 @@ p {
     animation-duration: 3s;
     animation-name: slidein;
   } */
-
-  /* @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-  }
-  
-  span {
-    display: inline-block;
-    opacity: 0;
-    filter: blur(4px);
-  }
-  
-  span:nth-child(1) {
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(2) {
-    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(3) {
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(4) {
-    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(5) {
-    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(6) {
-    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(7) {
-    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(8) {
-    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(9) {
-    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(10) {
-    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(11) {
-    animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(12) {
-    animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(13) {
-    animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(14) {
-    animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(15) {
-    animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(16) {
-    animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(17) {
-    animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  span:nth-child(18) {
-    animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
-  
-  @keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
-  } */
-  
-
-
 
   
   .nav {
@@ -389,21 +291,26 @@ p {
       font-size: 3vw;
     }
   }
-
-    @media (max-width: 1024px) {
-    .bg-image {
-      background-attachment:fixed;
-    }
-  }
   
   .bg-image {
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center; 
+    -webkit-background-size: cover;
     background-size: cover;
-    background-position: center center;
   }
-  
+
   @media (max-width: 500px) {
+    .bg-image {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    
     .nav h1,
     .slider h1 {
       font-size: 8vw;
@@ -419,12 +326,11 @@ p {
       font-size: 4vw;
     }
   
-    #light {
+    /* #light {
       background: linear-gradient(160deg, #a46a7b93 20%,  #885f7fe7 100%);
     }
     #dark {
       background: linear-gradient(160deg, #422d3cd8 20%,  #885f7fe7 100%);
-      /* background: linear-gradient(160deg, #49c5b743 20%,  #c38d9e96 100%); */
     }
     
     #light .change {
@@ -433,18 +339,16 @@ p {
     
     #dark .change {
       background: linear-gradient(160deg, #a1808ce3 20%, #40605d 100%);
-    }
+    } */
 
-    body {
+    html, body {
         background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg");
-        /* background-position: center; */
-        /* background-size: cover; */
-        /* background-repeat: no-repeat; */
+        background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        /* padding: 0;
-        overflow: scroll;
-        background-clip: border-box;
-        height: 100%; */
+        background-position: center; 
+        -webkit-background-size: cover;
+        background-size: cover;
      }
   }
   
