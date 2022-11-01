@@ -389,7 +389,7 @@ p {
       font-size: 3vw;
     }
   }
-/* 
+
     @media (max-width: 1024px) {
     .bg-image {
       background-attachment:fixed;
@@ -402,7 +402,7 @@ p {
     background-size: cover;
     background-position: center center;
   }
-   */
+  
   @media (max-width: 500px) {
     .nav h1,
     .slider h1 {
