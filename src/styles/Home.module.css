@@ -230,11 +230,10 @@
   }
   
   @media screen and (max-width: 480px) {
-    h1 {
+/*     h1 {
       animation-duration: 3s;
       animation-name:none;
-    }
-
+    } */
     
     .main {
       padding: 0 1.2rem;
