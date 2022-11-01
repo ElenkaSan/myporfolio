@@ -170,13 +170,6 @@ p {
     overflow: hidden;
   }
   
-  .bg-image {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-  }
-  
   /* .overlay-mf {
     background-color: #0078ff;
   } */
@@ -396,14 +389,20 @@ p {
       font-size: 3vw;
     }
   }
-
+/* 
     @media (max-width: 1024px) {
     .bg-image {
       background-attachment:fixed;
     }
   }
   
-  
+  .bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+   */
   @media (max-width: 500px) {
     .nav h1,
     .slider h1 {
