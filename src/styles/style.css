@@ -151,11 +151,11 @@ p {
     box-shadow: 0 0 0 4px #cde1f8;
   }
   
-  .display-5 {
+  /* .display-5 {
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.1;
-  }
+  } */
   
   .display-6 {
     font-size: 2rem;
@@ -177,9 +177,9 @@ p {
     background-position: center center;
   }
   
-  .overlay-mf {
+  /* .overlay-mf {
     background-color: #0078ff;
-  }
+  } */
   
   .overlay-mf {
     position: absolute;
@@ -221,7 +221,13 @@ p {
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
   }
-  @keyframes scale {
+
+  /* h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  } */
+
+  /* @keyframes scale {
     100% {
       transform: scale(1);
     }
@@ -310,7 +316,7 @@ p {
       opacity: 1;
       filter: blur(0);
     }
-  }
+  } */
   
 
 
@@ -390,6 +396,13 @@ p {
       font-size: 3vw;
     }
   }
+
+    @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment:fixed;
+    }
+  }
+  
   
   @media (max-width: 500px) {
     .nav h1,
@@ -425,12 +438,15 @@ p {
 
     body {
         background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg");
-/*         background-position: center; */
-/*         background-size: cover; */
-/*         background-repeat: no-repeat; */
-/*         background-attachment: fixed; */
-  }
-
+        /* background-position: center; */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        background-attachment: fixed;
+        /* padding: 0;
+        overflow: scroll;
+        background-clip: border-box;
+        height: 100%; */
+     }
   }
   
   /* .background {
@@ -448,7 +464,6 @@ p {
     /* text-shadow: 0 0 0 #faebd7; */
     text-shadow: 20px 0 70px #ff0266;
     font-size: 3vw;
-    /* -webkit-animation: loading 1s ease-in-out infinite alternate; */
   }
   
   /* @media (max-width: 900px) { */
@@ -471,7 +486,7 @@ p {
       color: rgba(255, 255, 255, 0.911);
     }
     
-    .sakura li{
+    .sakura li {
       position: absolute;
       list-style: none;
       top: -50px;
@@ -1097,10 +1112,10 @@ p {
     font-size: 3rem;
   }
   
-  .intro-single .breadcrumb {
+  /* .intro-single .breadcrumb {
     background-color: transparent;
     color: #0078ff;
-  }
+  } */
   
   .intro-single .breadcrumb .breadcrumb-item:before {
     color: #cde1f8;
@@ -1444,12 +1459,7 @@ p {
     }
   }
   
-/*   @media (max-width: 1024px) {
-    .bg-image {
-      background-attachment: scroll;
-    }
-  } */
-  
+
   @media screen and (max-width: 769px) {
     .back-to-top {
       bottom: 15px;
