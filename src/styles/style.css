@@ -291,21 +291,20 @@ p {
       font-size: 3vw;
     }
   }
-  
-  .bg-image {
+    .bg-image {
     background-position: center center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
-    background-position: center; 
+    /* background-position: center;  */
     -webkit-background-size: cover;
     background-size: cover;
   }
 
   @media (max-width: 500px) {
     .bg-image {
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-position: center center; */
+      /* background-repeat: no-repeat; */
+      /* background-attachment: fixed; */
       background-position: center; 
       -webkit-background-size: cover;
       background-size: cover;
