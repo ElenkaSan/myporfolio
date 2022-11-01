@@ -291,23 +291,36 @@ p {
       font-size: 3vw;
     }
   }
-    .bg-image {
+  
+  /* .bg-image {
     background-position: center center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-position: center;  */
+    background-position: center; 
     -webkit-background-size: cover;
     background-size: cover;
-  }
+  } */
 
   @media (max-width: 500px) {
     .bg-image {
-      /* background-position: center center; */
-      /* background-repeat: no-repeat; */
-      /* background-attachment: fixed; */
+      -webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+      /* height: 100vh; */
+      /* width: 100vw;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; */
+      /* background-position: center center;
+      background-repeat: no-repeat;
       background-position: center; 
       -webkit-background-size: cover;
-      background-size: cover;
+      background-size: cover; */
     }
     
     .nav h1,
@@ -325,7 +338,7 @@ p {
       font-size: 4vw;
     }
   
-    /* #light {
+    #light {
       background: linear-gradient(160deg, #a46a7b93 20%,  #885f7fe7 100%);
     }
     #dark {
@@ -338,28 +351,36 @@ p {
     
     #dark .change {
       background: linear-gradient(160deg, #a1808ce3 20%, #40605d 100%);
-    } */
+    }
 
-    html, body {
-        background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center; 
-        -webkit-background-size: cover;
+    body {
+        /* z-index: -1; */
+        /* background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg"); */
+        /* height: 100vh; */
+        /* width: 100vw;
         background-size: cover;
+        background-position: center;
+        background-attachment: fixed; */
+        -webkit-background-size: 100%; 
+-moz-background-size: 100%; 
+-o-background-size: 100%; 
+background-size: 100%; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
      }
   }
   
-  /* .background {
+  .background {
     position: absolute;
-    height: 100vh;
+    /* height: 100vh; */
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
-  } */
+  }
   
   .loader span {
     color: #AFD275;
