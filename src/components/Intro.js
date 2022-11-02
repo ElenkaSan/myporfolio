@@ -39,7 +39,7 @@ const Intro = () => {
               </section>
           {/* <div className="text-dark float-right ">  */}
             {/* <h1 className="main">Elena Nurullina</h1>   */}
-            <hr class="my-2"></hr>
+            <hr class="my-3"></hr>
             <h4 className="texts">Full-Stack Software Engineer with 10+ years of experience in a bank and travel agency (5 years). 
             Having an Economics degree, it helps me to take any challenges. I like to specialize in Full-Stack, 
             but especially in Front-End Development. <br/> I am passionate about combining creative design with code.</h4>
@@ -84,8 +84,7 @@ const Intro = () => {
                   href="https://drive.google.com/file/d/1p1h4HjbzwSE12qGu0tX4UPeGCUk_aYs-/view?usp=sharing"
                   role="button"
                 > My Resume </a>
-              </p>
-              
+              </p>    
             </div>
           </div>
         </div>
