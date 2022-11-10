@@ -89,7 +89,7 @@ class Portfolio extends React.Component {
             </div>
              <div className="col-sm-6">
               <div className="work-box card change">
-                <a className="btn" href="https://changeable-laugh.surge.sh/">
+                <a className="btn" href="https://github.com/ElenkaSan/Vacation-Front">
                   <div className="work-img card">
                     <img src={vaca} alt="" className="img-fluid" />
                   </div>
@@ -98,7 +98,7 @@ class Portfolio extends React.Component {
                       <div className="col-m-9">
                         <h2 className="main">Vacation Time</h2>
                         <div className="">
-                        <a href="https://github.com/ElenkaSan/Vacation-Front" role="button">
+                        <a href="https://changeable-laugh.surge.sh/" role="button">
                         <div className="w-like">
                         <span className="main"><BsPatchPlus/></span>
                         </div>
