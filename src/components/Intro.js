@@ -72,7 +72,7 @@ const Intro = () => {
                 <a
                   className="btn js-scroll px-4" style={{ 
 //                      textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue",
-                     backgroundColor:"#885f7fe7", color:"#AFD275" }}
+                     backgroundColor:"#885f7fe7", color:"#0a018be7" }}
                   href="#work"
                   role="button"
                 >
@@ -82,7 +82,7 @@ const Intro = () => {
                  <a
                   className="btn js-scroll px-4" style={{ 
 //                      textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue", 
-                     backgroundColor:"#885f7fe7", color:"#AFD275" }}
+                     backgroundColor:"#885f7fe7", color:"#0a018be7" }}
                   href="https://drive.google.com/file/d/1gQV_nqkUiCNHt1oZcQ4XY2RJzpQVwliQ/view?usp=sharing"
                   role="button"
                 > My Resume </a>
