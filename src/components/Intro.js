@@ -70,17 +70,17 @@ const Intro = () => {
               </p>
               <p className="pt-3">
                 <a
-                  className="btn btn-dark js-scroll px-4" style={{ 
-                     textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" }}
+                  className="btn js-scroll px-4" style={{ 
+                     textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue", backgroundColor:"#885f7fe7", color:"#AFD275" }}
                   href="#work"
                   role="button"
                 >
                   My Projects
                 </a>
                 <span className="input-group-btn me-2"></span>
-                <a
-                  className="btn btn-dark js-scroll px-4" style={{
-                     textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" }}
+                 <a
+                  className="btn js-scroll px-4" style={{ 
+                     textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue", backgroundColor:"#885f7fe7", color:"#AFD275" }}
                   href="https://drive.google.com/file/d/1gQV_nqkUiCNHt1oZcQ4XY2RJzpQVwliQ/view?usp=sharing"
                   role="button"
                 > My Resume </a>
