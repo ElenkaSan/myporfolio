@@ -77,7 +77,7 @@
     animation-name: slidein;
   }
 
-  @keyframes slidein {
+/*   @keyframes slidein {
     from {
       margin-left: 100%;
       width: 300%;
@@ -87,7 +87,7 @@
       margin-left: 0%;
       width: 100%;
     }
-  }
+  } */
 
   .socials {
     text-align: end;
