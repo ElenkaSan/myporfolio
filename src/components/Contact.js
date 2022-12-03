@@ -93,9 +93,11 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12">
-                              <button type="submit"
-                                className="btn btn-dark js-scroll px-4" style={{
-                                  textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" }}>
+                               <button type="submit"
+                                className="btn js-scroll px-4" style={{
+                                   backgroundColor:"#885f7fe7", color:"#0a018be7"
+                                  // textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" 
+                                  }}>
                                 Send
                               </button>
                             </div>
