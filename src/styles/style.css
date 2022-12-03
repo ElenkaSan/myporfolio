@@ -269,8 +269,12 @@ p {
     text-decoration: none;
   }
   
-  #loader span:hover {
+  #light span:hover {
     color: #ff0266;
+  }
+
+  #dark span:hover {
+    color: #03dac6;
   }
   
   @media screen and (min-width: 800px) {
@@ -541,12 +545,12 @@ background-size: cover;
     color: #4e4e4e;
   }
   
-  .line-mf {
+/*   .line-mf {
     width: 40px;
     height: 5px;
     background-color: #0078ff;
     margin: 0 auto;
-  }
+  } */
   
   /* Title Left */
   
