@@ -70,7 +70,7 @@ const About = () => {
                       <hr></hr>
                         <h2 className="main">About Me</h2>
                       <div className={`${styles.contentT} para-animate`}>
-                        <p className="texts lead">I am a Full-Stack Software Engineer with a passion for working achieve personal and team goals.
+                        <p className="texts lead">I am a Full-Stack Software Engineer with a passion for working to achieve personal and team goals.
                           I also recently completed the Software Engineering Career Track where I learned the latest Web Development skills
                           from top industry professionals to stay modernized in the ever-changing tech landscape. 
                           I am most passionate about Front-End development since it incorporates both creativity and logical design. 
