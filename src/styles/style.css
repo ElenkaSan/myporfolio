@@ -269,13 +269,13 @@ p {
     text-decoration: none;
   }
   
-  #light span:hover {
+/*   #light span:hover {
     color: #ff0266;
   }
 
   #dark span:hover {
     color: #03dac6;
-  }
+  } */
   
   @media screen and (min-width: 800px) {
     .nav h1 {
