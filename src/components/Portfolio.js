@@ -40,8 +40,8 @@ class Portfolio extends React.Component {
                          </a>
                       </div>
                         <div className="text-dark">
-                          <span className="w-ctegory Tt">
-                          Backend: Python3 | Flask | SQLAlchemy | PostgreSQL | <br/> AJAX | Axios | RESTful API
+                          <span className="w-ctegory Tt m-1">
+                          Backend: Python3 | Flask | AJAX | Axios | RESTful APIs | SQLAlchemy | PostgreSQL
                           <br></br>
                           Frontend: HTML | Jinja | WTForms | JavaScript | Bootstrap | Font Awesome and raw CSS 
                           </span>
@@ -71,14 +71,14 @@ class Portfolio extends React.Component {
                         </a>
                       </div>
                         <div className="text-dark">
-                          <span className="w-ctegory Tt">
-                           Node.js | Express | PostgreSQL | ReactJS | RESTful API
+                          <span className="w-ctegory Tt m-1">
+                            Node.js | Express.js | PostgreSQL | React | RESTful APIs | SuperTest 
                            <br></br>
                           The app implements role based authorization using JWTs, manages data validation with JSON schema. 
                           {/* <br></br> */}
                           {/* Frontend: A Single-page React app using React-Router for routing and protecting routes based on JWT permissions, and local storage to manage user persistence. */}
                           {/* Tech used: Components, Props, Custom Hooks, React Hooks (useContext, useState, useEffect, Browser Routing, Navigation Routes) */}
-                          </span>{" "}
+                          </span>
                         </div>
                       </div>
                   
@@ -104,11 +104,11 @@ class Portfolio extends React.Component {
                         </div>
                         </a>
                         <div className="text-dark">
-                          <span className="w-ctegory Tt">
-                          Frontend: HTML5 | CSS3 | JavaScript | React | Reactstrap | React Bootstrap | Redux | JSON Schema | JSON Web Token | API
+                          <span className="w-ctegory Tt m-1">
+                           Backend: Node.js | Express.js | JWT Authentication | SuperTest | Bcrypt | PostgreSQL | Axios | RESTful APIs 
                           <br></br>
-                          Backend: Node.js | Express.js | SuperTest | JWT Authentication | Bcrypt | PostgreSQL | Axios | RESTful API Endpoints 
-                          </span>{" "}
+                          Frontend: HTML5 | CSS3 | React | JavaScript | JSON Schema | JSON Web Token | APIs | Reactstrap | Bootstrap
+                          </span>
                         </div>
                       </div>
                       
@@ -141,12 +141,11 @@ class Portfolio extends React.Component {
                         </a>
                       </div>
                         <div className="text-dark">
-                          <span className="w-ctegory Tt">
-                          HTML | CSS | JavaScript | React | Styled-Components | Next.js
-                          </span>{" "}
+                          <span className="w-ctegory Tt m-1">
+                          HTML | CSS | JavaScript | React | Styled-Components
+                          </span>
                         </div>
                       </div>
-                      
                     </div>
                   </div>
                 </a> 
