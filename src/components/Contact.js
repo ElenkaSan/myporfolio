@@ -10,8 +10,8 @@ class Contact extends React.Component {
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route" 
-        style={{ backgroundImage: "url(" + sakura + ")", 
-	    backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: "center"
+        style={{ backgroundImage: "url(" + sakura + ")",
+         backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: "center"
       }}
       >
         {/* <div className="overlay-mf"></div> */}
@@ -93,9 +93,9 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12">
-                               <button type="submit"
+                              <button type="submit"
                                 className="btn js-scroll px-4" style={{
-                                   backgroundColor:"#885f7fe7", color:"#0a018be7"
+                                   backgroundColor:"#069286", color:"#e5c6ff"
                                   // textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue" 
                                   }}>
                                 Send
@@ -124,10 +124,10 @@ class Contact extends React.Component {
                          /> 
                         <SocialLink
                          url="https://www.linkedin.com/in/elena-nurullina"
-                         icon={<AiFillLinkedin color="#057fa4" />}
+                         icon={<AiFillLinkedin color="#63d3ff" />}
                         /></h1>
-			         	     	</div>
-			              	</div>
+			</div>
+		      </div>
                     </div>
                   </div>
                 </div>
@@ -146,8 +146,8 @@ class Contact extends React.Component {
           </div>
         </footer>
         <footer>
-				<span>&copy;</span> 2022 Elena Nurullina
-			</footer>
+	<span className="text-light lead">&copy; 2022 Elena Nurullina</span>
+	</footer>
       </section>
     );
   }
