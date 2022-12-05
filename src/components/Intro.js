@@ -14,9 +14,9 @@ const Intro = () => {
           <div className="table-cell">
            <div className="container"> 
             <div className={`${styles.content} para-animate`}>
-             <div className="text-dark banner"> 
+             <div className="text-dark"> 
               <section className="nav">
-               <h1 className="main">Elena Nurullina</h1>
+               <h1 className="display-5 main">Elena Nurullina</h1>
                 <h3 className="span loader" id="loader">
                  <span className="m">S</span>
                  <span className="m">O</span>
@@ -39,9 +39,9 @@ const Intro = () => {
               </section>
           {/* <div className="text-dark float-right ">  */}
             {/* <h1 className="main">Elena Nurullina</h1>   */}
-            <hr class="my-3"></hr>
+            <hr class="my-2"></hr>
             <h4 className="texts">Full-Stack Software Engineer with 10+ years of experience in a bank and travel agency (5 years). 
-            Having an Economics degree, it helps me to take any challenges. I like to specialize in Full-Stack, 
+            Having an Economics degree, it helps me to take on any challenges. I like to specialize in Full-Stack, 
             but especially in Front-End Development. <br/> I am passionate about combining creative design with code.</h4>
            </div>
            <div className={styles.socials}>
@@ -71,22 +71,25 @@ const Intro = () => {
               <p className="pt-3">
                 <a
                   className="btn js-scroll px-4" style={{ 
-//                      textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue",
-                     backgroundColor:"#885f7fe7", color:"#0a018be7" }}
+                    backgroundColor:"#084e63", color:"#AFD275"
+                    // backgroundColor:"#885f7fe7", color:"#0a018be7" 
+                  }}
                   href="#work"
                   role="button"
                 >
                   My Projects
                 </a>
                 <span className="input-group-btn me-2"></span>
-                 <a
+                <a
                   className="btn js-scroll px-4" style={{ 
-//                      textShadow: "1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue", 
-                     backgroundColor:"#885f7fe7", color:"#0a018be7" }}
-                  href="https://drive.google.com/file/d/1gQV_nqkUiCNHt1oZcQ4XY2RJzpQVwliQ/view?usp=sharing"
+                    backgroundColor:"#084e63", color:"#AFD275"
+                    // backgroundColor:"#885f7fe7", color:"#0a018be7" 
+                  }}
+                  href="https://drive.google.com/file/d/1gA8lQiTj4Jqmvf8TTBPhfyMQy6Go-dwW/view?usp=sharing"
                   role="button"
                 > My Resume </a>
-              </p>    
+              </p>
+              
             </div>
           </div>
         </div>
