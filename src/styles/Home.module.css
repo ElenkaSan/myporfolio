@@ -124,7 +124,8 @@
     row-gap: 0.5rem;
     margin-right: 20px;
     margin-top: 0.6rem;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+/*     font-family: "Ubuntu", sans-serif; */
   }
   
   .projects {
