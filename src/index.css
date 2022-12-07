@@ -1,4 +1,4 @@
-
+/* 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,9 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   padding: 0;
-/*   overflow: scroll; */
   background: url("./img/sakura.jpeg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -16,7 +14,7 @@ body {
   -o-background-size: cover;
   background-clip: border-box;
   height: 100%;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
