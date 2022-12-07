@@ -358,27 +358,27 @@ background-size: cover; */
       background: linear-gradient(160deg, #a1808ce3 20%, #40605d 100%);
     }
 
-        body {
+/*         body { */
         /* z-index: -1; */
-        background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg");
+/*         background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/03/sakura-flower-wallpaper-001.jpg"); */
         /* height: 100vh; */
-        width: 100vw;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+/*         width: 100vw; */
+/*         background-size: cover; */
+/*         background-position: center; */
+/*         background-attachment: fixed; */
         /* -webkit-background-size: 100%; 
         -moz-background-size: 100%; 
         -o-background-size: 100%;  */
-        background-size: 100%; 
+/*         background-size: 100%;  */
         /* -webkit-background-size: cover; 
         -moz-background-size: cover; 
           -o-background-size: cover;  */
-         background-size: cover;
-     }
+/*          background-size: cover; */
+/*      } */
   }
   
   .background {
-    position: absolute;
+/*     position: absolute; */
     /* height: 100vh; */
     top: 0;
     bottom: 0;
