@@ -71,10 +71,10 @@ const About = () => {
                         <h2 className="main">About Me</h2>
                       <div className={`${styles.contentT} para-animate`}>
                         <p className="texts lead">I am a Full-Stack Software Engineer with a passion for working to achieve personal and team goals.
-                          I also recently completed the Software Engineering Career Track where I learned the latest Web Development skills
-                          from top industry professionals to stay modernized in the ever-changing tech landscape. 
-                          I am most passionate about Front-End development since it incorporates both creativity and logical design. 
-                          I continue to learn more and develop in this direction and improve my skills. Open to employment 100% remote work.</p>
+                         I also recently completed the Software Engineering Career Track. From this course, I learned the latest Web Development skills
+                         from top industry professionals to stay modernized in the ever-changing tech landscape. 
+                         I am passionate about Front-End development since it incorporates creativity and logical design. 
+                         I continue to learn more, develop in this direction, and improve my skills. Open to employment 100% remote work.</p>
                       </div>
                       </div>
                     </div>
