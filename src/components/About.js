@@ -1,5 +1,5 @@
 import React from "react";
-import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb } from 'react-icons/si'
+import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb, SiMaterialui, SiJinja } from 'react-icons/si'
 import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt } from 'react-icons/fa'
 import portfoliophoto from '../img/portfoliophoto.jpg'
 import styles from '../styles/Home.module.css'
@@ -28,9 +28,11 @@ const About = () => {
                         <ToolkitIcon icon={<SiTypescript color='#007acc' />} name='Typescript' />
                         <ToolkitIcon icon={<FaPython color='#4b8bbe' />} name='Python' />
                         <ToolkitIcon icon={<SiFlask color='fccb2b' className="bg-dark card"/>} name='Flask' />
+                        <ToolkitIcon icon={<SiJinja color='#1e1d1b' className="bg-light card"/>} name='Jinja' />
                         <ToolkitIcon icon={<FaDatabase color='#f29111' />} name='SQL' />
                         <ToolkitIcon icon={<SiPostgresql color='#AFD275' className="bg-secondary card"/>} name='PostgreSQL' />
                         <ToolkitIcon icon={<FaBootstrap color='#563d7c' className="bg-light card"/>} name='Bootstrap' />
+                        <ToolkitIcon icon={<SiMaterialui color='#85dcba' className="bg-primary card"/>} name='MUI' />
                         <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
                         <ToolkitIcon icon={<SiJest color='#e34c26' className="bg-warning card" />} name='Jest' />
                         <ToolkitIcon icon={<SiJquery color='#78cff5' />} name='JQuery' />
