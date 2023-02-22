@@ -31,13 +31,13 @@ const About = () => {
                         <ToolkitIcon icon={<SiJinja color='#1e1d1b' className="bg-light card"/>} name='Jinja' />
                         <ToolkitIcon icon={<FaDatabase color='#f29111' />} name='SQL' />
                         <ToolkitIcon icon={<SiPostgresql color='#AFD275' className="bg-secondary card"/>} name='PostgreSQL' />
-                        <ToolkitIcon icon={<FaBootstrap color='#563d7c' className="bg-light card"/>} name='Bootstrap' />
-                        <ToolkitIcon icon={<SiMaterialui color='#153ddd' />} name='MUI' />
-                        <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
+                        <ToolkitIcon icon={<SiMongodb color='rgb(54, 213, 62)' />} name='MongoDB' />
                         <ToolkitIcon icon={<SiJest color='#e34c26' className="bg-warning card" />} name='Jest' />
                         <ToolkitIcon icon={<SiJquery color='#78cff5' />} name='JQuery' />
+                        <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
                         <ToolkitIcon icon={<SiVisualstudiocode color='#0078d7' />} name='VS Code' />
-                        <ToolkitIcon icon={<SiMongodb color='rgb(54, 213, 62)' />} name='MongoDB' />
+                        <ToolkitIcon icon={<FaBootstrap color='#563d7c' className="bg-light card"/>} name='Bootstrap' />
+                        <ToolkitIcon icon={<SiMaterialui color='#153ddd' />} name='MUI' />
                       </div>
                       <div className={styles.toolkitTitle}>
                       <h1 className="span loader fw-bold" id="loader">
