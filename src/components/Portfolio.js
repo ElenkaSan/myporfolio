@@ -142,7 +142,7 @@ class Portfolio extends React.Component {
                       </div>
                         <div className="text-dark">
                           <span className="w-ctegory Tt m-1">
-                          HTML | CSS | JavaScript | React | Styled-Components
+                          HTML | CSS | JavaScript |
                           </span>
                         </div>
                       </div>
