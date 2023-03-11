@@ -1,7 +1,7 @@
 import React from "react";
 import recipetips from "../img/recipetips.png";
 import jobly from "../img/jobly.png";
-import myportnight from "../img/myportnight.png"
+import connect4 from "../img/connect4.png"
 import vaca from "../img/vaca.png"
 import {BsPatchPlus} from 'react-icons/bs';
 // import '../styles/style.css';
@@ -33,7 +33,7 @@ class Portfolio extends React.Component {
                       <div className="col-m-9">
                         <h2 className="main">Recipe Tips</h2>
                         <div className="">
-                        <a href="https://recipe-tips.herokuapp.com/" role="button">
+                        <a href="https://recipe-tips.onrender.com/" role="button">
                         <div className="w-like">
                           <span className="main"><BsPatchPlus/></span>
                         </div>
@@ -125,16 +125,16 @@ class Portfolio extends React.Component {
             </div>
              <div className="col-sm-6">
               <div className="work-box card change">
-                <a className="btn" href="https://elenanurullina.vercel.app/">
+                <a className="btn" href="https://elenkasan.github.io/memory-game/">
                   <div className="work-img card">
-                    <img src={myportnight} alt="" className="img-fluid" />
+                    <img src={connect4} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-m-9">
                         <h2 className="main">Portfolio Website</h2>
                         <div className="">
-                        <a href="https://github.com/ElenkaSan/myporfolio.git" role="button">
+                        <a href="https://github.com/ElenkaSan/memory-game" role="button">
                         <div className="w-like">
                         <span className="main"><BsPatchPlus/></span>
                         </div>
