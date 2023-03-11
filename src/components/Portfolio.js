@@ -132,7 +132,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-m-9">
-                        <h2 className="main">Portfolio Website</h2>
+                        <h2 className="main">Memory Game</h2>
                         <div className="">
                         <a href="https://github.com/ElenkaSan/memory-game" role="button">
                         <div className="w-like">
