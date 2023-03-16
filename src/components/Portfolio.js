@@ -55,6 +55,39 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-sm-6">
               <div className="work-box card change">
+                <a className="btn" href="https://changeable-laugh.surge.sh/">
+                  <div className="work-img card">
+                    <img src={vaca} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-m-9">
+                        <h2 className="main">Vacation Time</h2>
+                        <div className="">
+                        <a href="https://github.com/ElenkaSan/Vacation-Front" role="button">
+                        <div className="w-like">
+                        <span className="main"><BsPatchPlus/></span>
+                        </div>
+                        </a>
+                        <div className="text-dark">
+                          <span className="w-ctegory Tt m-1">
+                           Backend: Node.js | Express.js | JWT Authentication | SuperTest | Bcrypt | PostgreSQL | Axios | RESTful APIs 
+                          <br></br>
+                          Frontend: HTML5 | CSS3 | React | JavaScript | JSON Schema | JSON Web Token | APIs | Reactstrap | Bootstrap
+                          {/* <br></br> */}
+                          {/* Frontend: A Single-page React app using React-Router for routing and protecting routes based on JWT permissions, and local storage to manage user persistence. */}
+                          {/* Tech used: Components, Props, Custom Hooks, React Hooks (useContext, useState, useEffect, Browser Routing, Navigation Routes) */}
+                          </span>
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+             <div className="col-sm-6">
+              <div className="work-box card change">
                 <a className="btn" href="https://tearful-cactus.surge.sh">
                   <div className="work-img card">
                     <img src={jobly} alt="" className="img-fluid" />
@@ -75,39 +108,6 @@ class Portfolio extends React.Component {
                             Node.js | Express.js | PostgreSQL | React | RESTful APIs | SuperTest 
                            <br></br>
                           The app implements role based authorization using JWTs, manages data validation with JSON schema. 
-                          {/* <br></br> */}
-                          {/* Frontend: A Single-page React app using React-Router for routing and protecting routes based on JWT permissions, and local storage to manage user persistence. */}
-                          {/* Tech used: Components, Props, Custom Hooks, React Hooks (useContext, useState, useEffect, Browser Routing, Navigation Routes) */}
-                          </span>
-                        </div>
-                      </div>
-                  
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-             <div className="col-sm-6">
-              <div className="work-box card change">
-                <a className="btn" href="https://changeable-laugh.surge.sh/">
-                  <div className="work-img card">
-                    <img src={vaca} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-m-9">
-                        <h2 className="main">Vacation Time</h2>
-                        <div className="">
-                        <a href="https://github.com/ElenkaSan/Vacation-Front" role="button">
-                        <div className="w-like">
-                        <span className="main"><BsPatchPlus/></span>
-                        </div>
-                        </a>
-                        <div className="text-dark">
-                          <span className="w-ctegory Tt m-1">
-                           Backend: Node.js | Express.js | JWT Authentication | SuperTest | Bcrypt | PostgreSQL | Axios | RESTful APIs 
-                          <br></br>
-                          Frontend: HTML5 | CSS3 | React | JavaScript | JSON Schema | JSON Web Token | APIs | Reactstrap | Bootstrap
                           </span>
                         </div>
                       </div>
