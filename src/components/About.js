@@ -78,6 +78,7 @@ const About = () => {
                          experience supporting ranging from front-end to back-end technologies and stacks with experience in designing, developing, 
                          and operationalizing cloud-native applications using Agile methodologies. I made full-stack web applications such as food recipes 
                          and flight/hotel searching websites, developed the mobile layout, and created a media query for tablet and desktop versions using Bootstrap and MUI Frameworks.
+                         <br></br>
                          I have a true passion for Front-End development, where I can combine my creativity with logical design principles to create 
                          visually appealing and user-friendly interfaces. I am adaptable and open to 100% remote work opportunities, possessing the discipline
                          and motivation to thrive in remote environments. I'm excited to contribute to an innovative and collaborative team, 
