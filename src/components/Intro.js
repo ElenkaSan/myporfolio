@@ -44,7 +44,7 @@ const Intro = () => {
             My background in Economics provides me with a strong foundation to tackle various challenges. While I have expertise in Full-Stack development, 
             I have a particular affinity for Front-End Development. <br/> I am driven by a passion for merging creative design principles with coding to 
             create engaging and visually appealing applications.</h4>
-           {/* </div>  */}
+           </div>
            <div className={styles.socials}>
             <SocialLink url='https://www.linkedin.com/in/elena-nurullina/' icon={<FaLinkedin color='#0a018be7' />} />
             <SocialLink url='https://github.com/ElenkaSan' icon={<FaGithub color='#AFD275' />} />
