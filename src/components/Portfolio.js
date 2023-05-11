@@ -69,7 +69,8 @@ class Portfolio extends React.Component {
                         <span className="main"><BsPatchPlus/></span>
                         </div>
                         </a>
-                        <div className="text-dark">
+                       </div>
+                       <div className="text-dark">
                           <span className="w-ctegory Tt m-1">
                            Backend: Node.js | Express.js | JWT Authentication | SuperTest | Bcrypt | PostgreSQL | Axios | RESTful APIs 
                           <br></br>
