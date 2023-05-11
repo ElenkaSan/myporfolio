@@ -47,7 +47,6 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                  
                     </div>
                   </div>
                   </a>
@@ -81,7 +80,6 @@ class Portfolio extends React.Component {
                           </span>
                         </div>
                       </div>
-                  
                     </div>
                   </div>
                 </a>
@@ -111,13 +109,6 @@ class Portfolio extends React.Component {
                           The app implements role based authorization using JWTs, manages data validation with JSON schema. 
                           </span>
                         </div>
-                      </div>
-                      
-                        {/* <a href="https://github.com/ElenkaSan/Capstone_Project_2_Backend" role="button">
-                        <div className="w-like">
-                        <span className="main"><BsPatchPlus/></span>
-                        </div>
-                        </a> */}
                       </div>
                     </div>
                   </div>
