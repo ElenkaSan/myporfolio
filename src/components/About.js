@@ -73,14 +73,14 @@ const About = () => {
                         <h2 className="main">About Me</h2>
                       <div className={`${styles.contentT} para-animate`}>
                         <p className="texts lead"> 
-                         I'm a dedicated Full-Stack Software Engineer with hands-on experience in both front-end and back-end technologies. 
+                         I'm a dedicated Full-Stack Software Engineer with hands-on experience in both front-end and back-end technologies. <br></br>
                          I worked for two years on several personal projects and freelanced for companies where I have hands-on application development 
                          experience supporting ranging from front-end to back-end technologies and stacks with experience in designing, developing, 
                          and operationalizing cloud-native applications using Agile methodologies. I made full-stack web applications such as food recipes 
                          and flight/hotel searching websites, developed the mobile layout, and created a media query for tablet and desktop versions using Bootstrap and MUI Frameworks.
                          <br></br>
                          I have a true passion for Front-End development, where I can combine my creativity with logical design principles to create 
-                         visually appealing and user-friendly interfaces. I am adaptable and open to 100% remote work opportunities, possessing the discipline
+                         visually appealing and user-friendly interfaces. <br></br> I'm adaptable and open to 100% remote work opportunities, possessing the discipline
                          and motivation to thrive in remote environments. I'm excited to contribute to an innovative and collaborative team, 
                          leveraging my diverse skill set and continuous improvement mindset to make a meaningful impact in the field of software engineering.
                         </p>
