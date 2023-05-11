@@ -72,11 +72,17 @@ const About = () => {
                       <hr></hr>
                         <h2 className="main">About Me</h2>
                       <div className={`${styles.contentT} para-animate`}>
-                        <p className="texts lead">I am a Full-Stack Software Engineer with a passion for working to achieve personal and team goals.
-                         I also recently completed the Software Engineering Career Track. From this course, I learned the latest Web Development skills
-                         from top industry professionals to stay modernized in the ever-changing tech landscape. 
-                         I am passionate about Front-End development since it incorporates creativity and logical design. 
-                         I continue to learn more, develop in this direction, and improve my skills. Open to employment 100% remote work.</p>
+                        <p className="texts lead"> 
+                         I'm a dedicated Full-Stack Software Engineer with hands-on experience in both front-end and back-end technologies. 
+                         I worked for two years on several personal projects and freelanced for companies where I have hands-on application development 
+                         experience supporting ranging from front-end to back-end technologies and stacks with experience in designing, developing, 
+                         and operationalizing cloud-native applications using Agile methodologies. I made full-stack web applications such as food recipes 
+                         and flight/hotel searching websites, developed the mobile layout, and created a media query for tablet and desktop versions using Bootstrap and MUI Frameworks.
+                         I have a true passion for Front-End development, where I can combine my creativity with logical design principles to create 
+                         visually appealing and user-friendly interfaces. I am adaptable and open to 100% remote work opportunities, possessing the discipline
+                         and motivation to thrive in remote environments. I'm excited to contribute to an innovative and collaborative team, 
+                         leveraging my diverse skill set and continuous improvement mindset to make a meaningful impact in the field of software engineering.
+                        </p>
                       </div>
                       </div>
                     </div>
