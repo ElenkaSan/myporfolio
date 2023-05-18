@@ -74,7 +74,7 @@ const About = () => {
                       <div className={`${styles.contentT} para-animate`}>
                         <p className="texts lead"> 
                          I'm a dedicated Full-Stack Software Engineer with hands-on experience in both front-end and back-end technologies. <br></br>
-                         I worked for two years on several personal projects and freelanced for companies where I have hands-on application development 
+                         I worked for three years on several personal projects and for companies where I have hands-on application development 
                          experience supporting ranging from front-end to back-end technologies and stacks with experience in designing, developing, 
                          and operationalizing cloud-native applications using Agile methodologies. I made full-stack web applications such as food recipes 
                          and flight/hotel searching websites, developed the mobile layout, and created a media query for tablet and desktop versions using Bootstrap and MUI Frameworks.
