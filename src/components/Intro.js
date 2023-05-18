@@ -40,10 +40,12 @@ const Intro = () => {
           {/* <div className="text-dark float-right ">  */}
             {/* <h1 className="main">Elena Nurullina</h1>   */}
             <hr class="my-2"></hr>
-            <h4 className="texts">Full-Stack Software Engineer with over 10 years of experience in the banking industry and 5 years in the travel agency sector. 
-            My background in Economics provides me with a strong foundation to tackle various challenges. While I have expertise in Full-Stack development, 
-            I have a particular affinity for Front-End Development. <br/> I am driven by a passion for merging creative design principles with coding to 
-            create engaging and visually appealing applications.</h4>
+             <h4 className="texts">
+              Full-Stack Software Engineer with an economics background and various job experience, 
+              equipped with a strong foundation in business principles and analytical thinking. 
+              Specializing in Full-Stack development, my true passion is Front-End Development,
+              where I merge creative design principles with coding expertise to create engaging and visually appealing applications.
+             </h4>
            </div>
            <div className={styles.socials}>
             <SocialLink url='https://www.linkedin.com/in/elena-nurullina/' icon={<FaLinkedin color='#0a018be7' />} />
