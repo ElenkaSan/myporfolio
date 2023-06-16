@@ -1,7 +1,7 @@
 import React from "react";
 import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb, SiMaterialui, SiJinja } from 'react-icons/si'
 import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt } from 'react-icons/fa'
-import portfoliophoto from '../img/portfoliophoto.jpg'
+import portfoliophoto from '../img/Elenkasan.jpg'
 import styles from '../styles/Home.module.css'
 import ToolkitIcon from './ToolkitIcon'
 
