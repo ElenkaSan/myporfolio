@@ -89,7 +89,7 @@ const Intro = () => {
                     // backgroundColor:"#885f7fe7", color:"#0a018be7" 
                   }}
 //                   href="https://drive.google.com/file/d/1CjrY4sV1myB9wjflJLysGtZ-8Ok3Q5MO/view?usp=sharing"
-                  href="https://drive.google.com/file/d/10-n4rJBD9V_q3Yy6_PPpwjYe6sRVtT4z/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1EoF9U9577y6-awV7nVfdWgEFTMWmgp4v/view?usp=sharing"
                   role="button"
                 > My Resume </a>
               </p>
