@@ -41,10 +41,11 @@ const Intro = () => {
             {/* <h1 className="main">Elena Nurullina</h1>   */}
             <hr class="my-2"></hr>
              <h4 className="texts">
-              Full-Stack Software Engineer with an economics background and various job experience, 
-              equipped with a strong foundation in business principles and analytical thinking. 
-              Specializing in Full-Stack development, my true passion is Front-End Development,
-              where I merge creative design principles with coding expertise to create engaging and visually appealing applications.
+              Full-Stack Software Engineer with a background in economics and diverse job experience, 
+                offering strong business and analytical skills.
+              Specializing in Full-Stack development, with a passion for Front-End development, 
+                where I blend creative design with coding expertise to build engaging and visually appealing applications. 
+                With 2 years of experience in developing responsive web applications.
              </h4>
            </div>
            <div className={styles.socials}>
@@ -89,7 +90,7 @@ const Intro = () => {
                     // backgroundColor:"#885f7fe7", color:"#0a018be7" 
                   }}
 //                   href="https://drive.google.com/file/d/1CjrY4sV1myB9wjflJLysGtZ-8Ok3Q5MO/view?usp=sharing"
-                  href="https://drive.google.com/file/d/1EoF9U9577y6-awV7nVfdWgEFTMWmgp4v/view?usp=sharing"
+                  href="https://drive.google.com/file/d/14uYUJzt7Sf3Voa6wKjjfGesAImvLJ1E4/view?usp=sharing"
                   role="button"
                 > My Resume </a>
               </p>
