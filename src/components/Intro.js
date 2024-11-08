@@ -44,8 +44,7 @@ const Intro = () => {
               Full-Stack Software Engineer with a background in economics and diverse job experience, 
                 offering strong business and analytical skills.
               Specializing in Full-Stack development, with a passion for Front-End development, 
-                where I blend creative design with coding expertise to build engaging and visually appealing applications. 
-                With 2 years of experience in developing responsive web applications.
+                where I blend creative design with coding expertise to build engaging and visually appealing applications.
              </h4>
            </div>
            <div className={styles.socials}>
