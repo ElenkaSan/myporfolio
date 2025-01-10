@@ -32,9 +32,9 @@ const About = () => {
                         <ToolkitIcon icon={<FaDatabase color='#f29111' />} name='SQL' />
                         <ToolkitIcon icon={<SiPostgresql color='#AFD275' className="bg-secondary card"/>} name='PostgreSQL' />
                         <ToolkitIcon icon={<SiMongodb color='rgb(54, 213, 62)' />} name='MongoDB' />
-                        <ToolkitIcon icon={<SiJest color='#e34c26' className="bg-warning card" />} name='Jest' />
                         <ToolkitIcon icon={<SiDatadog color='#ff00ff' />} name='Datadog' />
                         <ToolkitIcon icon={<FaJenkins color='#ffff00' />} name='Jenkins' />
+                        <ToolkitIcon icon={<SiJest color='#e34c26' className="bg-warning card" />} name='Jest' />
                         <ToolkitIcon icon={<SiJquery color='#78cff5' />} name='JQuery' />
                         <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
                         <ToolkitIcon icon={<SiVisualstudiocode color='#0078d7' />} name='VS Code' />
