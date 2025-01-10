@@ -1,6 +1,6 @@
 import React from "react";
-import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb, SiMaterialui, SiJinja } from 'react-icons/si'
-import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt } from 'react-icons/fa'
+import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb, SiMaterialui, SiJinja, SiDatadog } from 'react-icons/si'
+import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaJenkins } from 'react-icons/fa'
 import portfoliophoto from '../img/Elenkasan.jpg'
 import styles from '../styles/Home.module.css'
 import ToolkitIcon from './ToolkitIcon'
@@ -33,6 +33,8 @@ const About = () => {
                         <ToolkitIcon icon={<SiPostgresql color='#AFD275' className="bg-secondary card"/>} name='PostgreSQL' />
                         <ToolkitIcon icon={<SiMongodb color='rgb(54, 213, 62)' />} name='MongoDB' />
                         <ToolkitIcon icon={<SiJest color='#e34c26' className="bg-warning card" />} name='Jest' />
+                        <ToolkitIcon icon={<SiDatadog color='#ff00ff' />} name='Datadog' />
+                        <ToolkitIcon icon={<FaJenkins color='#ffff00' />} name='Jenkins' />
                         <ToolkitIcon icon={<SiJquery color='#78cff5' />} name='JQuery' />
                         <ToolkitIcon icon={<FaGitAlt color='f34f29' />} name='Git' />
                         <ToolkitIcon icon={<SiVisualstudiocode color='#0078d7' />} name='VS Code' />
@@ -74,9 +76,9 @@ const About = () => {
                       <div className={`${styles.contentT} para-animate`}>
                         <p className="texts lead"> 
                          I'm a dedicated Full-Stack Software Engineer with hands-on experience in both front-end and back-end technologies. <br></br>
-                         I worked on several personal projects and for companies where I have hands-on application development 
+                         I worked on several personal projects as well as for companies, gaining valuable application development 
                          experience supporting ranging from front-end to back-end technologies and stacks with experience in designing, developing, 
-                         and operationalizing cloud-native applications using Agile methodologies. I build full-stack web applications such as food recipes 
+                         and operationalizing cloud-native applications using Agile methodologies. I have built full-stack web applications, such as food recipes 
                          and flight/hotel searching websites, developed the mobile layout, and created a media query for tablet and desktop versions using Bootstrap and MUI Frameworks.
                          <br></br>
                          I have a true passion for Front-End development, where I can combine my creativity with logical design principles to create 
