@@ -1,5 +1,5 @@
 import React from "react";
-import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb, SiMaterialui, SiJinja, SiDatadog, SiIntellijidea, SiMysql, SiJunit5, SiMocha } from 'react-icons/si'
+import { SiJavascript, SiPostgresql, SiFlask, SiVisualstudiocode, SiNextdotjs, SiJest, SiJquery, SiRedux, SiTypescript, SiMongodb, SiMui, SiJinja, SiDatadog, SiIntellijidea, SiMysql, SiJunit5, SiMocha } from 'react-icons/si'
 import { FaReact, FaNodeJs, FaPython, FaDatabase, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaJenkins, FaJava, FaDocker } from 'react-icons/fa'
 import portfoliophoto from '../img/Elenkasan.jpg'
 import styles from '../styles/Home.module.css'
@@ -45,7 +45,7 @@ const About = () => {
                         <ToolkitIcon icon={<SiVisualstudiocode color='#0078d7' />} name='VS Code' />
                         <ToolkitIcon icon={<SiIntellijidea color='#ff00ff' />} name='IntelliJiDea' />
                         <ToolkitIcon icon={<FaBootstrap color='#563d7c' className="bg-light card"/>} name='Bootstrap' />
-                        <ToolkitIcon icon={<SiMaterialui color='#153ddd' />} name='MUI' />
+                        <ToolkitIcon icon={<SiMui color='#153ddd' />} name='MUI' />
                       </div>
                       <div className={styles.toolkitTitle}>
                       <h1 className="span loader fw-bold" id="loader">
