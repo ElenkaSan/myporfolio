@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+import { ReactTyped } from 'react-typed';
 import { FiMail } from 'react-icons/fi'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import styles from '../styles/Home.module.css'
@@ -58,16 +58,16 @@ const Intro = () => {
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider main">
-                  <Typed
-                    strings={[
-                      "Front End Developer",
-                      "Back End Developer",
-                      "Full-Stack Software Developer",
-                    ]}
-                    typeSpeed={80}
-                    backDelay={1100}
-                    backSpeed={30}
-                    loop
+                  <ReactTyped
+                  strings={[
+                    "Front End Developer",
+                    "Back End Developer",
+                    "Full-Stack Software Developer",
+                  ]}
+                  typeSpeed={80}
+                  backDelay={1100}
+                  backSpeed={30}
+                  loop
                   />
                 </strong>
               </p>
