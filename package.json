@@ -9,6 +9,7 @@
     "@fontsource/roboto": "^4.5.8",
     "@materializecss/materialize": "^1.1.0",
     "@popperjs/core": "^2.11.6",
+    "ajv": "^8.17.1",
     "bootstrap": "^5.2.1",
     "bootstrap-css": "^4.0.0-alpha.5",
     "gh-pages": "^4.0.0",
